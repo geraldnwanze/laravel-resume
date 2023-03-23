@@ -1,0 +1,4 @@
+.container{
+    padding-inline: 10%;
+    padding-block: calc(100vh - 95vh);
+}
