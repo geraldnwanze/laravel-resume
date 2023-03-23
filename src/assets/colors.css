@@ -1,4 +1,12 @@
-.primary{
-    background-color: rgb(34, 34, 121);
+:root{
+    --primary: rgb(18, 18, 83);
+}
+
+.bg-primary{
+    background-color: var(--primary);
     color: white;
+}
+
+.text-primary{
+    color: var(--primary);
 }
