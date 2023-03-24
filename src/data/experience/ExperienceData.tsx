@@ -1,7 +1,7 @@
-const Experience = {
+const ExperienceData = {
     project: [],
     technical: [],
     default: []
 }
 
-export default Experience;
+export default ExperienceData;

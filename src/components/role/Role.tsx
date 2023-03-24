@@ -1,16 +1,15 @@
-import { ReactNode } from "react";
 import "../../assets/role.css";
 
-function Role({color, children}: RoleTypes)
+function Role({color, role}: RoleTypes)
 {
     return (
-        <div className={ 'role ' + color }>{children}</div>
+        <div className={ 'role ' + color }>{role}</div>
     )
 }
 
 interface RoleTypes{
     color: string,
-    children: ReactNode
+    role: string
 }
 
 export default Role;

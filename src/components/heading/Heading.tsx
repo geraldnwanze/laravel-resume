@@ -1,16 +1,16 @@
 import { ReactElement } from "react";
 import "../../assets/heading.css";
 
-function Heading({ color, children }: HeadingTypes): ReactElement
+function Heading({ color, heading }: HeadingTypes): ReactElement
 {
     return (
-        <div className={'heading ' + color}>{children}</div>
+        <div className={'heading ' + color}>{heading}</div>
     )
 }
 
 interface HeadingTypes {
     color: string;
-    children: string;
+    heading: string;
 }
 
 export default Heading;

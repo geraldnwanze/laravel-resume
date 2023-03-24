@@ -1,4 +1,4 @@
-const Skills = {
+const SkillsData = {
     languages: [
         'html', 'css', 'javascript', 'php'
     ],
@@ -10,4 +10,4 @@ const Skills = {
     ]
 }
 
-export default Skills;
+export default SkillsData;

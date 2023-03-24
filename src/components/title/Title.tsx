@@ -1,15 +1,14 @@
-import { ReactNode } from "react";
 import "../../assets/title.css";
 
-function Title({children}: TitleTypes)
+function Title({name}: TitleTypes)
 {
     return (
-        <div className="title">{children}</div>
+        <div className="title">{name}</div>
     )
 }
 
 interface TitleTypes{
-    children: ReactNode;
+    name: string;
 }
 
 export default Title;
